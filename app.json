@@ -85,14 +85,10 @@
             "value": "null"
         }
     },
-    "addons": [
+     "buildpacks": [
         {
-            "plan": "heroku-postgresql"
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
-    ],
-    "buildpacks": [
-        {
-            "url": "heroku-community/apt"
-        }
-    ]
+     ],
+  "stack": "heroku-24"
 }
