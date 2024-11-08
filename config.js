@@ -26,7 +26,7 @@ DEBUG =
 module.exports = {
   VERSION: "v1.2.8",
   SESSION:
-    process.env.ASENA_SESSION === undefined ? "levanter_295693cffd1e1a4c1cb83c357304e286ae" : process.env.ASENA_SESSION,
+    process.env.ASENA_SESSION === undefined ? "levanter_8e05eadf906d04aee8c36e0c785d22614" : process.env.ASENA_SESSION,
   EXT: process.env.EXT === undefined ? undefined : process.env.EXT,
   LANG:
     process.env.LANGUAGE === undefined
